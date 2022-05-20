@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}   
+body{
+    font-family: 'Work Sans', sans-serif;
+    word-spacing: 10pxss;
+}
+a,a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar{
+    min-height: 80px;
+}
+.top-menu{
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index:999;
+}
+.navbar-brand img{
+    display: block;
+    margin-left: 15px;
+}
+header .nav-fixed {
+    background-color:#fff!important;
+    height: 70px;
+    border-bottom: none;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.navbar-nav .nav-item {
+    margin: 0px 10px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    position: relative;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    color: #464e90;
+    padding: 0;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.nav-item .nav-link{
+    padding: 8px 16px;
+}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus, .navbar-nav .nav-link.active{
+    color: #464e90!important;
+}
+/* .contact-btn{
+    position: relative;
+    text-align: center;
+    color: #ff4359;
+ 
+}
+.contact-btn .btn-contact {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+.btn-contact{
+    padding: 20px 0px;
+    color: #ff4359;
+    box-shadow: 0 3px 16px 0 rgb(0 0 0 / 10%);
+    line-height: 20px;
+    font-size: 18px;
+    width: 200px;
+    border: none;
+}
+.btn-contact:hover{
+    border: none;
+    background-color: #ff4359;
+    color: #fff;
+
+}
+
+.btn-contact .right-side{
+    padding-left: 10px;
+}
+/*  */
+/* home banner */
+.banner{
+    overflow: hidden;
+    width: 100%;
+    padding: 150px 150px;
+}
+.banner-content{
+    color: #fff;
+}
+.banner-content h1{
+    color: #464e90;
+    font-size: 74px;
+    font-family: 'Work Sans', sans-serif;       
+    line-height: 95px;
+ }
+ .banner-content  .banner-btn{
+    line-height: 20px;
+    background: #ff4359;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 40px;
+    font-weight: 600;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+    padding: 20px 30px;
+    width: 200px;
+    text-align: center;  
+ }
+ .banner-btn:hover{
+    border: 2px solid #ff4359;
+   text-decoration: none;
+   color: #ff4359;
+   background: #fff;
+   -webkit-box-shadow: 0 20px 15px 0 rgb(0 0 0 / 10%);
+   box-shadow: 0 20px 15px 0 rgb(0 0 0 / 10%);
+}
+.home-banner{
+    top: 100px;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    background: url(../image/bg-shape.png) no-repeat scroll center center;
+    background-size: cover;
+}
+ 
+
+ 
+ .mb-30{
+     margin-bottom: 30px;
+ }
+ .mt-30{
+     margin-top: 30px;
+ }
+ .banner-content p{
+     color: #c2bbc7;
+     margin-bottom: 40px;
+     font-size: 18px;
+ }
+
+
+ .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+/* service */
+.pd-100{
+    padding: 50px 0px;
+}
+.service-area h2{
+    font-size: 45px;
+    line-height: 65px;
+    color: #464e90;
+    font-weight: 600;
+}
+.service-area .service-btn{
+    font-size: 14px;
+    line-height: 16px;
+    background: #ff4359;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 600;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+    padding: 15px 30px;
+    width: 150px;
+    text-align: center; 
+}
+.service-type-inner{
+    min-height: 360px;
+    padding:20px 30px;
+    -webkit-box-shadow: 0px 5px 10px rgb(25,45,51,0.10);
+    box-shadow:0px 5px 10px rgb(25,45,51,0.10);
+  
+}
+.service-type-inner:hover{
+   
+}
+.m-30{
+    margin: 30px 0px;
+}
+ .service-type-inner .service-type h3{
+    color: #464e90;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+    margin: 30px 0px;
+}
+.service-type-inner .service-type p{
+    color: #464e90;
+    font-size:14px;
+    line-height: 24px;
+    margin: 30px 0px;
+}
+/* about */
+#about{
+    background-image: url(../image/about-bg.png);
+    background-repeat: no-repeat;
+}
+.carousel-about{
+    margin-left: 50px;
+}
+.about-inner h4, .blog-inner h4, .contact-inner h4{
+    color: #ff4359;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+.about-inner h2, .blog-inner h3, .contact-inner h3{
+    color: #464e90;
+    font-size: 48px;
+    line-height: 60px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.about-inner p{
+    color: #464e90;
+    font-size:18px;
+    line-height: 30px;
+}
+
+ .blog-sub-title, .contact-sub-title{
+    color: #ff4359;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+/* portfolio */
+.portfolio-title h3{
+    color: #464e90;
+    font-size: 48px;
+    line-height: 60px;
+}
+.portfolio-area img{
+    margin: 15px;
+    padding: 5px 15px;
+}
+
+/* blog */
+.blog-news{
+    background-color: #fff;
+    padding: 30px 30px;
+    margin: 0px 15px;
+    -webkit-box-shadow: 0px 5px 10px rgb(25,45,51,0.10);
+    box-shadow: 0px 5px 10px rgb(25,45,51,0.10);
+}
+.blog-news:active, .blog-news:hover {
+    background-color: #ff4359;
+}
+.blog-news h5{
+    color: #464e90;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.blog-news span.blog-date{
+    color:#c9cbdc ;
+    font-size: 14px;
+    line-height: 30px;  
+    margin-bottom: 16px;    
+}
+.blog-news p{
+    color: #464e90;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 16px;
+}
+
+.blog-news:hover.h5, .blog-news:active.h5{
+    color: #fff !important;
+}
+.blog-news:hover p, .blog-news:active.p{
+    color: #fff !important;
+}
+/* contact */
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    line-height: 60px;
+    color: #464e90;
+    padding: 0px 10px;
+    border: none;
+    border-radius: none;
+    margin-bottom: 10px;
+    background-color: #f4fafe;
+    
+}
+.btn-send-message{
+    font-size: 14px;
+    line-height: 16px;
+    background: #ff4359;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 600;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+    padding: 15px 30px;
+    width: 150px;
+    text-align: center; 
+}
+.btn-send-message:hover{
+    border: 2px solid #ff4359;
+   text-decoration: none;
+   color: #ff4359;
+   background: #fff;
+   -webkit-box-shadow: 0 20px 15px 0 rgb(0 0 0 / 10%);
+   box-shadow: 0 20px 15px 0 rgb(0 0 0 / 10%);
+}
+/* footer */
+.footer-bg{
+    padding-top: 100px;
+    background-color:#314584;
+}
+.company-title h5{
+    font-size: 18px;
+    color:#fff;
+    font-weight: 600;
+}
+.company-title h2{
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercases;
+    color: #ff4359;
+}
+.footer-link ul{
+    padding: 0;
+    list-style-type: none;
+    display: inline-flex;
+}
+.footer-link ul li a{
+    display: inline-block;
+    padding: 12px 24px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.copyrights p{
+    color: #fff;
+    font-size: 14px;
+}
+.social-media{
+   color: #fff;
+   font-size: 32px;
+   line-height: 30px; 
+   margin-bottom: 50px;
+}
+.social-media i:hover{
+    color: #ff4359;
+}
+.social-media i{
+    padding: 0px 30px;
+}
+
+
+@media (max-width: 1500px){
+    .home-banner{
+        width: 40%;
+        top: 120px;
+    }
+    .banner-content h1 {
+        font-size: 60px;
+        line-height: 62px;
+    }
+}
+
+@media (max-width: 991px){
+
+    .navbar-nav .nav-item .nav-link {
+        position: relative;
+        line-height: 46px;
+        padding: 0;
+        background: #fff;
+        width: 100%;
+        border-bottom: 1px solid #ff435985;
+    }
+    .btn-contact {
+        display: none;
+    }
+    .banner {
+        padding: 100px 100px 50px;
+        text-align: center;
+    }
+   
+    .banner-content h1 {
+        font-size: 54px;
+        line-height: 52px;
+        text-transform: capitalize;
+    }
+    .banner-content .banner-btn {
+        line-height: 16px;       
+        font-size: 16px;
+        font-weight: 600;
+        padding: 16px 24px;
+        width: 200px;
+    }
+    .home-banner {
+        top: 30px;
+        width: 60%;
+        margin: 0 auto;
+        position: relative;
+        right: 0;
+        z-index: -1;
+        background: url(../image/bg-shape.png) no-repeat scroll center center;
+        background-size: cover;
+    }
+    .company-title h2{
+        font-size: 42px;
+    }
+    .service-type-inner{
+        margin-top: 40px;
+    }
+    .service-area{
+        text-align: center;
+    }
+    .blog{
+        text-align: center;
+    }
+    .portfolio-area{
+        text-align: center;
+    }
+    .contact-inner{
+        text-align: center;
+    }
+        
+    @media (max-width: 768px){
+        .banner {
+            padding: 80px 80px 40px;
+            text-align: center;
+        }
+        .banner-content h1 {
+            font-size: 48px;
+            line-height: 48px;
+        }
+        .service-area h2 {
+            font-size: 42px;
+            line-height: 48px;
+            text-align: center;
+        }
+        .service-type-inner {
+            min-height: 300px;
+            padding: 20px 30px;
+            text-align: center;
+        }
+        .about-inner h4{
+            font-size: 16px;
+            line-height: 15px;
+            margin-top: 20px;
+        }
+        .about-inner h2{
+            font-size: 36px;
+            line-height: 40px;
+        }
+
+        .about-inner h4, .blog-inner h4, .contact-inner h4 {
+            font-size: 16px;
+            line-height: 15px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .service-area{
+            text-align: center;
+        }
+        .service-type-inner .service-type p {
+            font-size: 16px;
+        }
+        .about-inner p {
+            font-size: 16px;
+            line-height: 28px;
+        }
+        .pd-100 {
+            padding: 40px 0px;
+        }
+        .portfolio-title h3 {
+            font-size: 42px;
+            line-height: 42px;
+            text-align: center;
+        }
+        .portfolio-area .gallery{
+            text-align: center;
+        }
+        .blog-inner h3, .contact-inner h3 {
+            font-size: 36px;
+            line-height: 40px;
+            text-align: center;
+        }
+        .blog-news p {
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 10px;
+        }
+        .company-title h2 {
+            font-size: 36px;
+        }
+        .footer-link ul li a {
+            padding: 12px 20px;
+            font-size: 15px;
+        }
+        .copyrights p{
+            font-size: 14px;
+        }
+        .social-media {
+            font-size: 28px;
+            line-height: 20px;
+            margin-bottom: 30px;
+        }
+        .social-media i {
+            padding: 0px 16px;
+        }
+    }
+    @media (max-width: 540px){
+        .banner {
+            padding: 90px 50px 50px;
+        }
+        .pd-100{
+            padding: 40px 0px;
+        }
+            .footer-bg {
+                padding-top: 64px;
+            }
+            .company-title h2 {
+                font-size: 30px;
+            }
+            .mb-30 {
+                margin-bottom: 15px;
+            }
+            .footer-link ul {
+                display: block;
+            }
+            .footer-link ul li a {
+                padding: 10px 20px;
+                font-size: 13px;
+            }
+            .copyrights p{
+                font-size: 12px;
+            }
+            .social-media {
+                font-size: 22px;
+                line-height: 16px;
+                margin-bottom: 28px;
+            }
+            .footer-bg .footer-link{
+                margin-bottom: 0px;
+            }
+            .banner-content h1 {
+                font-size: 36px;
+                line-height: 42px;
+            }
+            .banner-content p {
+                margin-bottom: 30px;
+                font-size: 15px;
+            }
+            .home-banner {
+                top: 32px;
+            }
+            .banner-content .banner-btn {
+                line-height: 13px;
+                font-size: 12px;
+                padding: 11px 22px;
+            }
+            .service-area h2 {
+                font-size: 28px;
+                line-height: 35px;
+                padding: 0px 44px;
+            }
+            .service-area .service-btn{
+            font-size: 12px;
+            line-height: 12px;
+            padding: 12px 24px;
+            margin-top: 12px;
+            }
+            .mb-30 {
+                margin-bottom: 20px;
+            }
+            .about-inner h2 {
+                font-size: 28px;
+                line-height: 25px;
+                padding: 0px 30px;
+                text-align: center;
+            }
+            .portfolio-title h3 {
+                font-size: 30px;
+                line-height: 33px;
+            }
+            .blog-news p {
+                font-size: 14px;
+                line-height: 22px;
+                margin-top: 8px;
+            }
+            .footer-bg {
+                padding-top: 50px;
+            }
+            .company-title h2 {
+                font-size: 28px;
+            }
+            .footer-link ul {
+                margin: 0px;
+            }
+            .footer-link ul li a {
+                padding: 10px 10px;
+                font-size: 13px;
+            }
+            .social-media i {
+                padding: 0px 10px;
+            }
+            .service-type-inner {
+                margin-top: 30px;
+            }
+            .about-inner p {
+                font-size: 14px;
+                line-height: 22px;
+                padding: 0px 20px;
+            }
+            .contact-form input, .contact-form textarea {
+                line-height: 45px;
+                font-size: 14px;
+            }
+            .blog-inner h3, .contact-inner h3 {
+                font-size: 32px;
+                line-height: 36px;
+            }
+        }
+
