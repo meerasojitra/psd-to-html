@@ -1,0 +1,625 @@
+@media (max-width: 1200px){
+    .banner-detail h1 {
+        font-size: 72px;
+        line-height: 85px;
+    }
+    .navbar-collapse {
+        text-align: left;
+        background-color: #000;
+        position: absolute;
+        width: 300px;
+        top:0; /* top: 100%; */
+        left: 0;
+        height: 100vh;
+        padding-left: 15px;
+    }
+    .login-signup-btn {
+        display: block;
+    }
+    .login-signup-btn a {
+        margin: 15px 0;
+    }
+    .navbar .navbar-nav .nav-item{
+        border-bottom: 1px solid #9d9d9d;
+    }
+    .navbar-toggler{
+        margin-left: auto;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        line-height: 50px;
+    }
+    /* end--menu */
+    
+    .saas-heading h2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .btn {
+        font-size: 16px;
+    }
+    .feature .btn {
+        width: 200px;
+        height: 60px;
+        padding: 8px 12px;
+    }
+   
+    .m-25 {
+        margin-top: 20px;
+    }
+    .app-store p, .price-bg p {
+        font-size: 16px;
+        line-height: 32px;
+        color: #fff;
+    }
+    .app-store-collection .btn {
+        font-size: 16px;
+        height: 55px;
+        color: #fff;
+        padding: 8px 11px;
+    }
+    .saas-heading h3 {
+        font-size: 40px;
+        line-height: 30px;
+    }
+    .app-use p {
+        line-height: 30px;
+        font-size: 15px;
+    }
+    .pt-70 {
+        padding-top: 60px;
+    }
+    .step-app-middle {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        padding: 0px 25px;
+    }
+    .step-app {
+        width: 80px;
+        height: 80px;
+        padding: 20px 27px;
+    }
+    .saas-section {
+        padding: 100px 0px;
+    }
+    .m-100 {
+        margin: 80px auto 0;
+    }
+    .group-1, .group-3 {
+        margin-left: -40px;
+    }
+    blockquote {
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .writer-name h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .writer-name p {
+        line-height: 30px;
+    }
+    .faq-part-1 {
+        padding: 70px 70px 28px 70px;
+    }
+    .faq-part-2 {
+        padding: 0px 70px 48px 70px;
+    }
+    .sec-faq-btn .btn {
+        font-size: 16px;
+        padding: 18px 26px 13px 30px;
+        height: 60px
+    }
+    .footer-bg {
+        padding: 450px 0px 90px 0px;
+    }
+    .footer-form .btn{
+        height: 55px;
+    } 
+   
+}
+/* @media (min-width:1200px) {
+    .pd-r{
+        margin-left: 175px;
+    }  
+} */
+@media (max-width: 1200px) and (min-width:991px){
+    .pd-r {
+        margin-left: 70px!important;
+    }
+}
+@media (max-width: 992px) {
+    .banner-detail {
+        padding-top: 0px;
+    }
+    .banner-detail h1 {
+        font-size: 64px;
+        line-height: 74px;
+    }
+   
+    .banner-detail .btn {
+        width: 180px;
+    }
+    .sub-section {
+        padding-top: 80px;
+    }
+    .company-brand p {
+        font-size: 20px;
+    }
+    .saas-heading h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .feature .saas-heading{
+        text-align: center;
+        margin-bottom: 75px;
+    }
+    .m-25 {
+        margin-top: 15px;
+    }
+    .feature .sub-section .saas-heading{
+        text-align: left!important;
+    }
+    .saas-section {
+        padding: 85px 0px;
+    }
+    .app-store p, .price-bg p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .app-store-collection a i {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .saas-heading h3 {
+        font-size: 38px;
+        line-height: 28px;
+    }
+    .saas-interface .saas-heading p {
+        line-height: 24px;
+    }
+    .saas-interface .saas-heading {
+        margin-left: 15px;
+    }
+    .saas-interface .btn{
+        height: 55px;
+        padding: 5px 12px;
+    }
+    .group-1, .group-3 {
+        margin: 0 auto 30px;
+    }
+    .group-2{
+        margin: 0 auto;
+    }
+    .price-button {
+        margin-top: 34px;
+    }
+    .price-button .btn {
+        height: 55px;
+    }
+    .app-love .saas-heading{
+        margin-bottom: 32px;
+    }
+    blockquote {
+        font-size: 13px;
+        line-height: 30px;
+        margin-left: 10px;
+    }
+    .writer-name h4 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .faq-sec .container{
+        max-width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer-bg {
+        margin-top: -85px;
+        padding: 90px 0px;
+    }
+    .footer-form .btn {
+        height: 55px;
+        width: 100%;
+    }
+    .copyrights p {
+        line-height: 10px;
+    }
+}
+@media (max-width: 992px) and (min-width:769px){
+    .banner-detail p {
+        font-size: 16px;
+        line-height: 30px;
+        max-width: 400px;
+    }
+    .pd-r {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-detail {
+        text-align: center;
+    }
+    .banner-detail h1 {
+        font-size: 54px;
+        line-height: 64px;
+    }
+    .saas-heading h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .feature .btn {
+        width: 180px;
+        height: 50px;
+        padding: 2px 12px;
+    }
+    .pd-left-35{
+        padding: 0!important;
+    }
+    .mb-32 {
+        margin-bottom: 80px;
+    }
+    .feature .sub-section .saas-heading.pd-r {
+        margin-left: 0px;
+    }
+    .feature .sub-section .saas-heading{
+        margin-top: 30px;
+        text-align: center!important;
+    }
+    .saas-section {
+        padding: 64px 0px;
+    }
+    .app-store .saas-heading h2 {
+        font-size: 27px;
+        line-height: 32px;
+    }
+    .app-store p{
+        line-height: 22px;
+    }
+    .app-store-collection {
+        display: block;
+    }
+    .app-store-collection a{
+        margin-bottom: 20px;
+    }
+    .app-store-collection .btn {
+        font-size: 15px;
+        height: 46px;
+    }
+    .mob-app-screen {
+        top: -120px;
+    }
+    .step-app, .step-app-middle {
+        width: 112px;
+        height: 84px;
+        padding: 0px 28px;
+        line-height: 80px;
+    }
+    .saas-interface .saas-heading {
+        margin-top: 50px;
+        margin-left: auto;
+    }
+    .saas-interface {
+        padding: 25px 0px 25px 0px;
+    }
+    .m-100 {
+        margin: 64px auto 0;
+    }
+    .group-1, .group-3 {
+        padding: 41px 50px 40px 50px;
+        width: 350px;
+    }
+    .price-detail {
+        padding: 50px 0 51px;
+    }
+    .price-detail .indivisual {
+        font-size: 24px;
+    }
+    .price-detail .price {
+        font-size: 34px;
+    }
+    .group-2 {
+        padding: 55px 0 40px;
+        max-width: 384px;
+        min-height: 450px;
+    }
+    .writer-name h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    blockquote {
+        font-size: 15px;
+        line-height: 33px;
+        margin-left: 15px;
+    }
+
+    .faq {
+        padding: 70px 0px;
+    }
+    .p-150 {
+        padding: 0 100px;
+        line-height: 36px;
+    }
+    .faq .saas-heading h3{
+        margin-bottom: 20px;
+    }
+    .faq-part-1 {
+        padding: 70px 70px 0px 70px;
+    }
+    .footer-heading {
+        font-size: 22px;
+    }
+    .footer-detail {
+        margin: 20px 0px 0px;
+    }
+    .footer-detail p {
+        font-size: 13px;
+        line-height: 30px;
+    }
+    .footer-detail h2 {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 4px 0px 5px 0px;
+    }
+    .brand-logo img{
+        margin-top: 20px;
+    }
+    .footer-form .btn {
+        height: 45px;
+        font-size: 12px;
+    }
+    .footer-form a {
+        margin: 24px 0px 0px;
+    }
+    .footer-bg {
+        margin-top: -65px;
+        padding: 72px 0px;
+    }
+    .pd-r {
+      margin-left: 0px;
+    }
+    .main-feature h4 {
+        font-size: 22px;
+        line-height: 35px;
+        margin: 0px 45px 36px 38px;
+    }
+
+}
+@media (max-width: 576px) {
+    .home-banner {
+        padding: 65px 0px;
+        height: auto;
+    }
+        .banner-detail h1 {
+            font-size: 42px;
+            line-height: 48px;
+    }
+    .banner-detail p {
+        font-size: 13px;
+        line-height: 29px;
+    }
+    .banner-detail .btn {
+        width: auto;
+        height: 50px;
+        font-size: 13px;
+        padding: 2px 10px;
+    }
+    .banner-detail .start-trial {
+        font-size: 13px;
+    }
+    .company-brand p {
+        font-size: 18px;
+    }
+    .saas-heading h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .m-25 {
+        margin-top: 12px;
+    }
+    p {
+        font-size: 13px;
+        line-height: 26px;
+    }
+    .feature .btn {
+        width: 160px;
+        height: 45px;
+        padding: 0px 12px;
+        font-size: 13px;
+    }
+   .app-store .mob-app-screen img{
+        display: none;
+    }
+    .app-store .saas-heading h2 {
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .app-store .saas-heading{
+        text-align: center;
+    }
+    .app-store-collection .btn {
+        font-size: 13px;
+        height: 42px;
+        width: 150px;
+        padding: 4px 12px;
+    }
+    .saas-heading h3 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .app-use p {
+        line-height: 26px;
+        font-size: 13px;
+    }
+    .saas-interface .saas-heading {
+        text-align: center;
+    }
+    .saas-interface .btn {
+        font-size: 14px;
+    }
+    .saas-interface .saas-heading p {
+        font-size: 14px;
+    }
+    .group-1, .group-3 {
+        padding: 25px 18px 25px 33px;
+        width: 330px;
+    }
+    .price-detail .indivisual {
+        font-size: 18px;
+    }
+    .price-detail .price {
+        font-size: 28px;
+    }
+    .price-button .btn {
+        height: 50px;
+        padding: 2px 12px;
+        font-size: 14px;
+    }
+    .price-detail {
+        width: 230px;
+        padding: 40px 0 41px;
+    }
+    .group-2 {
+        padding: 40px 0 40px;
+        max-width: 358px;
+        min-height: 382px;
+    }
+    .price-button {
+        margin-top: 30px;
+    }
+    blockquote {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .writer-name h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .faq .faq-area h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .faq-part-1 {
+        padding: 48px 70px 0px 70px;
+    }
+    .sec-faq-btn .btn {
+        font-size: 14px;
+        padding: 13px 26px 13px 30px;
+        height: 50px;
+    }
+    .footer-bg{
+        z-index: 1;
+        padding: 62px 0px;
+    }
+    .footer-heading {
+        font-size: 20px;
+    }
+    .footer-detail p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .footer-detail h2 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .footer-detail p {
+        font-size: 11px;
+        line-height: 22px;
+    }
+    .footer-detail {
+        margin: 15px 0px 0px;
+    }
+    .footer-social-media ul li a i {
+        font-size: 15px;
+    }
+    .copyrights p {
+        font-size: 10px;
+        margin: 15px 0px;
+    }
+}
+@media (max-width: 320px) {
+    .banner-detail h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .banner-detail p {
+        font-size: 12px;
+        line-height: 26px;
+    }
+    .banner-detail .start-trial {
+        font-size: 12px;
+        display: block;
+    }
+    .sub-section {
+        padding-top: 54px;
+    }
+    .company-brand p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .saas-section {
+        padding: 48px 0px;
+    }
+    .saas-heading h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .feature .saas-heading {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    .group-1, .group-3 {
+        padding: 25px 18px 25px 24px;
+        width: 270px;
+    }
+    .price-detail {
+        width: 200px;
+        padding: 30px 0 31px;
+    }
+    .price-detail .indivisual {
+        font-size: 16px;
+    }
+    .price-detail .price {
+        font-size: 22px;
+    }
+    .price-detail p{
+        margin-bottom: 0px;
+    }
+    .group-2 {
+        padding: 30px 0 31px;
+        max-width: 350px;
+        min-height: 330px;
+    }
+    .price-detail .month {
+        margin: 0px 0 0;
+        font-size: 12px;
+    }
+    .price-button .btn {
+        height: 45px;
+        padding: 0px 12px;
+        font-size: 12px;
+    }
+    .sec-faq-btn {
+       padding: 0px;
+    }
+    .sec-faq-btn .btn {
+        font-size: 12px;
+        padding: 13px 26px 13px 30px;
+        height: 45px;
+    }
+    .faq-part-1 {
+        padding: 30px 60px 0px 60px;
+    }
+    .faq-part-2 {
+        padding: 0px 60px 30px 60px;
+    }
+    .p-150 {
+        padding: 0 20px;
+    }
+}
