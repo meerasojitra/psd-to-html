@@ -1,0 +1,334 @@
+@media only screen and (max-width:1400px) {
+    /* .banner-inner {
+        padding: 120px 0;
+    } */
+}
+@media only screen and (max-width:1200px) {
+    .banner-inner {
+        padding: 120px 0;
+    }
+    .main-heading h2 {
+        font-size: 84px;
+        padding-bottom: 18px;
+        margin-bottom: 26px;
+    }
+    .main-heading h2 span {
+        font-size: 48px;
+    }  
+    .main-heading .banner-btn {
+        padding: 12px 32px;
+    }
+    .mogo-section {
+        padding: 80px 0px;
+    }
+    .sectionHeading h2 {
+        margin-bottom: 30px;
+    }
+    .counter-area {
+        padding: 30px 5px;
+    }
+    .counter-area .number {
+        font-size: 62px;
+    }
+    .unique-design-bg .screen-device {
+        margin-bottom: -82px;
+    }
+   
+    .review {
+        font-size: 20px;
+    }
+    .client-name {
+        font-size: 22px;
+    }
+    .people-img img {
+        margin-left: 0px;
+    }
+    .input-group-text {
+        padding: 5px 20px;
+    }
+    .ft-gallery a img {
+        margin: 3px;
+    }
+}
+@media only screen and (max-width:992px) and (min-width:769px)  {
+    .card-body {
+        height: 118px;
+    }
+    .blog-content {
+        height: 120px;
+    }
+}
+@media only screen and (max-width:992px) {
+    .navbar-collapse{
+        text-align: center;
+        background-color: #f38181;
+        position: absolute;
+         width: 100%;
+        /* top: 0; */
+        top: 100%;
+        left: 0;
+        padding-left: 15px;
+    }
+    .home-banner {
+        padding: 80px 0px 0px;
+        width: 100%;
+        height: auto;
+    }
+    .carousel-indicators {
+        margin-top: 50px;
+    }
+    .banner-inner {
+        padding: 20px 0px 0px;
+    }
+    .main-heading h2 {
+        font-size: 62px;
+        padding-bottom: 16px;
+        margin-bottom: 22px;
+    }
+    .main-heading h2 span {
+        font-size: 40px;
+    }
+    .main-heading .banner-btn {
+        padding: 11px 22px;
+    }
+    .mogo-section {
+        padding: 74px 0px;
+    }
+    .accordion{
+        margin-top: 30px;
+    }
+    .counter-area .number {
+        font-size: 52px;
+    }
+    .sectionHeading h2 {
+        margin-bottom: 28px;
+        font-size: 28px;
+        padding-bottom: 16px;
+    }
+    .service-item {
+        margin-bottom: 40px;
+        padding-bottom: 30px
+    }
+    .review {
+        font-size: 18px;
+    }
+    .team-name .name {
+        font-size: 17px;
+    }
+    .unique-design-bg .screen-device {
+        margin-bottom: -76px;
+    }
+    #brand.mogo-section {
+        padding: 52px 0px;
+    }
+    .people-name h4 {
+        font-size: 16px;
+    }
+    .blog-img .number {
+        font-size: 24px;
+    }
+    .blog-content h4 {
+        font-size: 17px;
+    }
+    .ft-social-media ul li a i {
+        color: #95e1d3;
+        font-size: 17px;
+    }
+    .work-area img{
+        display: block;
+        margin: 0 auto;
+    }
+    #review-1.mogo-section{
+        padding: 36px 0px 10px;
+    }
+}
+@media only screen and (max-width:992px) and (min-width:769px)  {
+    .accordion>.card>.card-header {
+        padding: 4px 12px;
+    }
+    .card .card-header .btn-header-link {
+        font-size: 17px;
+    }
+    .service-icon {
+        color: #95e1d3;
+        font-size: 20px;
+    }
+    /* .card-body {
+        height: 80px;
+    } */
+    .people-img img {
+        margin-left: -20px;
+    }
+    .blog-content {
+        height: 150px;
+    }
+    .unique-design-bg .screen-device .mobile-screen {
+        left: 44%;
+    }
+}
+@media only screen and (max-width:768px) {
+    .main-heading h2 {
+        font-size: 52px;
+        padding-bottom: 14px;
+        margin-bottom: 20px;
+    }
+    .main-heading h2 span {
+        font-size: 34px;
+    }
+    .main-heading .banner-btn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .mogo-section {
+        padding: 40px 0px;
+    }
+    .banner-inner {
+        padding: 15px 0px 0px;
+    }
+    .carousel-indicators {
+        margin-top: 40px;
+    }
+    .about-area{
+        text-align: center;
+    }
+    .img-area {
+        margin-bottom: 30px;
+    }
+    .unique-design-bg .screen-device {
+        margin-bottom: -40px;
+    }
+    .unique-design-bg .screen-device .mobile-screen {
+        margin-left: 60px;
+        left: 40%;
+    }
+    .accordion {
+        margin-top: 30px;
+    }
+    .team{
+        text-align: center;
+    }
+    .our-team{
+        margin-bottom: 30px;
+    }
+    .blog-area{
+        text-align: center;
+    }
+    .blog-content {
+        height: 85px;
+    }
+    .blog-content-view {
+        margin: 10px 0px 20px;
+    }
+    .blog-img .date {
+        left: 32px;
+    }
+    .ft-blog-text h4 {
+        font-size: 15px;
+    }
+    .ft-blog-text .date {
+        font-size: 14px;
+    }
+    .counter-area {
+        padding: 30px 5px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+        border-right: none;
+        height: auto;
+    }
+    .counter-area:not(last-child){
+        border-left: none;
+    }
+}
+@media only screen and (max-width:575px) {
+    .home-banner {
+        padding: 60px 0px 0px;
+        width: 100%;
+        height: auto;
+    }
+    .banner-inner {
+        padding: 0px 0px 0px;
+    }
+    .main-heading h2 {
+        font-size: 48px;
+    }
+    .main-heading h2 span{
+        font-size: 28px;
+    }
+    .card .card-header .btn-header-link {
+        font-size: 16px;
+    }
+    .unique-design-bg .screen-device .mobile-screen {
+        margin-left: 39px;
+        left: 38%;
+    }
+    .work-review{
+        display: block;
+        text-align: center;
+    }
+    .work-review img {
+        margin: 0 auto;
+    }
+    .people-info{
+        margin-left: 20px;
+    }  
+
+}
+@media only screen and (max-width:440px) {
+    .main-heading h2 {
+        font-size: 38px;
+    }
+    .main-heading h2 span {
+        font-size: 22px;
+    }
+    .carousel-indicators li .number {
+        font-size: 12px;
+    }
+    .main-heading .banner-btn {
+        padding: 9px 12px;
+        font-size: 16px;
+    }
+    .counter-area .number {
+        font-size: 36px;
+        font-weight: 500;
+    }
+    .counter-area .text {
+        font-size: 10px;
+    }
+    .accordion>.card>.card-header {
+        padding: 5px 12px;
+    }
+    .review {
+        font-size: 16px;
+    }
+    .client-name {
+        font-size: 16px;
+    }
+    .team-name .name {
+        font-size: 16px;
+    }
+    .team-name .post {
+        font-size: 15px;
+    }
+    .unique-design-bg .screen-device .mobile-screen {
+        margin-left: 0px;
+        left: 28%;
+    }
+    .screen-device .tablet-screen{
+        width: 90%;
+        overflow-x: hidden;
+    }
+    .unique-design-bg .screen-device .mobile-screen {
+        margin-left: 20px;
+        left: 28%;
+        width: 60%;
+        display: none;
+    }
+    .customer-review img {
+        display: none;
+    }
+   .customer-review .review {
+        text-align: center;
+    }
+    .customer-review .client-name{
+        text-align: center;
+    }
+}
