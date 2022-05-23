@@ -1,0 +1,587 @@
+@media (max-width: 1199px) {
+    .home-banner {
+        padding: 120px 0px;
+    }
+    .home-banner::before {
+        height: auto;
+    }
+    .banner-title h1 {
+        font-size: 54px;
+    }
+    .banner-title p {
+        font-size: 26px;
+    }
+    .function-area p {
+        font-size: 22px;
+    }
+    .fnc-icon {
+        font-size: 36px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+    .sectionHeading h2 {
+        font-size: 44px;
+        padding-bottom: 12px;  
+        margin-bottom: 30px;
+    }
+    .download-app p {
+        font-size: 24px;
+    }
+    /* .feature-area {
+        padding: 24px 15px;
+        margin: 0px 15px;
+        height: 260px;
+    } */
+
+    .feature-area {
+        padding: 24px 15px;
+        margin: 0px 15px;
+        height: 340px;
+    }
+    .function-banner {
+        position: relative;
+        color: #fff;
+        padding: 180px 0px 100px;
+    }
+    .function-banner::before {
+        height: auto;
+    }
+    .feature-area h4 {
+        font-size: 22px;
+    }
+    .benefit-area {
+        margin: 0px 20px;
+        padding: 10px 20px;
+    }
+    .hello-sec {
+        padding: 80px 0px 80px 0px ;
+    }
+    .benefit-area h4 {
+        font-size: 26px;
+    }
+    .hello-btn {
+        font-size: 18px;
+    }
+    .contact h4 {
+        font-size: 28px;
+    }
+    .copyrights p {
+        font-size: 15px;
+    }
+    .client_border::after {
+        bottom: 200px;
+    }
+    .client-review blockquote {
+        padding: 100px 40px 10px;
+    }
+    .client-text::before {
+        padding: 100px 0;
+        top: 72px;
+    }
+    .tech {
+        display: block;
+        height: 350px;
+    }
+    .img-box {
+        width: 80px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .img-box i{
+        font-size: 62px;
+        padding: 8px 8px 8px 5px;
+    }
+}
+
+@media (max-width: 991px) {
+    .banner-title h1 {
+        font-size: 52px;
+        margin: 0 0 16px 0;
+    }
+    .earning img{
+        margin-top: 15px;
+    }
+    .hello-btn {
+        padding: 12px 65px;
+    }
+    .hello-sec {
+        padding: 80px 0px;
+    }
+    .banner-title{
+        text-align: center;
+    }
+
+    #feature .row{
+        flex-direction: column-reverse;
+    }
+    .function-banner {
+        position: relative;
+        color: #fff;
+        padding: 160px 0px 70px;
+    }
+    .img-area {
+        font-size: 46px;
+        padding: 25px 10px;
+        margin-bottom: 12px;
+        width: 90px;
+        height: 90px;
+    }
+    .download-app p {
+        font-size: 22px;
+    }
+    .client_border::after {
+        bottom: 165px;
+    }
+    .home-banner::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: auto;
+    }
+    .sectionHeading h2 {
+        font-size: 40px;
+        padding-bottom: 16px;
+        margin-bottom: 22px;
+    }
+    .home-banner {
+        position: relative;
+        padding: 120px 0px 90px;
+    }
+    .banner-left{
+        margin-top: 50px;
+    }
+   
+    .function-area p {
+        font-size: 20px;
+    }
+    .download-app {
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+  
+    .feature-area {
+        padding: 40px 16px 32px;
+        margin: 20px 15px;
+        height: 230px;
+        align-items: center;
+    }
+    .benefit-area {
+        margin: 16px auto;
+        padding: 10px 0px;
+        max-width: 500px;
+    }
+    .benefit-area h4 {
+        min-height: 0px;
+        margin-bottom: 15px;
+    }
+  
+    .client-name h3 {
+        font-size: 22px;
+    }
+   
+    .contact h4 {
+        font-size: 24px;
+    }
+   
+    .client-review blockquote {
+        font-size: 22px;
+        line-height: 1.5;
+        padding: 90px 40px 10px;
+    }
+    .client_border::after {
+        bottom: 213px;
+    }
+    .client-text::before {
+        padding: 100px 0;
+        top: 76px;
+    }
+    .tech{
+        display: block;
+        height: 280px;
+    }
+    .img-box{
+        margin: 0 auto;
+        width: 80px;
+        margin-bottom: 15px;
+    }
+    .img-box i {
+        font-size: 54px;
+        padding: 11px 12px;
+    }
+   
+    .brand-logo img {
+        width: 100px;
+    }
+    .mb-50 {
+        margin-bottom: 35px;
+    }
+    .app-screenshot .sectionHeading h2::after {
+        left: 10%;
+    }
+    .app-screenshot .sectionHeading h2::before {
+        right: -10%;
+    }
+    .support .sectionHeading h2::after {
+        left: 8%;
+    }
+    .support .sectionHeading h2::before {
+        right: -12%;
+        bottom: 37px;
+    }
+}
+@media (max-width: 992px) and (min-width: 768px){
+    .function-area {
+        padding: 0px 13px;
+        margin: 0px 0px 60px;
+    }
+}
+@media (max-width: 992px) and (min-width: 768px){
+    
+    .feature .sectionHeading h2::after {
+        left: 20%;
+    }
+    .feature .sectionHeading h2::before {
+        right:0%;
+    }
+    .client_border::before {
+        bottom: -90px;
+    }
+}
+@media (max-width: 767px) {
+  
+    .hello-sec {
+        padding: 70px 0px 0px;
+    }
+    .banner-title h1 {
+        font-size: 42px;
+    }
+    .banner-title p {
+        font-size: 22px;
+    }
+    .hello-btn {
+        padding: 10px 48px;
+    }
+    .sectionHeading h2 {
+        font-size: 32px;
+        padding-bottom: 18px;
+        margin-bottom: 15px;
+    }
+    .function-screen{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .function-banner {
+        padding: 160px 0px 44px;
+    }
+    .function-style{
+        display: flex;
+    }
+    .function-area {
+        margin: 0px 12px 50px;
+    }
+    .mb-50{
+        margin-bottom: 0px;
+    }
+    .card {
+        margin-bottom: 12px;
+    }
+    .card .card-header .btn-header-link {
+        font-size: 20px;
+    }
+    .feature::before {
+        height: auto;
+    }
+    .feature {
+        padding: 220px 0 100px 0;
+    }
+    .feature .download-btn{
+        margin-top: 20px;
+    }
+    .benefit-area {
+        margin: 0px 0px 25px;
+    }
+    .client-review {
+        padding: 0px 0px 20px;
+    }
+    .contact h4 {
+        font-size: 22px;
+    }
+    .useful-links ul li {
+        display: block;
+        padding: 12px 24px;
+    }
+    .useful-links ul {
+        margin: 0px 0px;
+    }
+    .client_border::after {
+        bottom: 200px;
+    }
+    .client-text::before {
+        padding: 92px 0;
+        top: 56px;
+    }
+    .client-review blockquote {
+        font-size: 20px;
+        padding: 65px 10px 10px;
+    }
+    .support .sectionHeading h2::after {
+        left: 2%;
+    }
+    .support .sectionHeading h2::before {
+        right: -17%;
+        bottom: 37px;
+    }
+    .tech {
+        height: 320px;
+    }
+    .owl-carousel .owl-item img {
+        display: block;
+        width: auto;
+        }
+    .app-screenshot img{
+        margin: 0 auto;
+    }
+    .app-screenshot.hello-sec{
+        padding: 70px 0px;
+    }
+   
+}
+@media (max-width: 577px) {
+    .home-banner {
+        padding: 110px 0px 90px;
+    }
+    .banner-title h1 {
+        font-size: 40px;
+    }
+    .banner-title p {
+        font-size: 24px;
+        margin: 0px 0 20px 0;
+    }
+    
+    .img-area {
+        font-size: 40px;
+        padding: 1px 7px;
+        margin-bottom: 15px;
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
+    }
+    .download-app p {
+        font-size: 20px;
+    }
+    .sectionHeading h2 {
+        font-size: 32px;
+        padding-bottom: 22px;
+        margin-bottom: 12px;
+    }
+    .function-area {
+        margin: 0px auto 50px;
+        padding: 0;
+    }
+    .function-area p {
+        font-size: 18px;
+        width: 155px;
+    }
+    .useful-links ul li a {
+        font-size: 18px;
+    }
+    .sectionHeading h2::before{
+        display: none;
+    }
+    .sectionHeading h2::after{
+        display: none;
+    }
+    .app-screenshot.hello-sec{
+        padding: 60px 0px;
+    }
+    .benefit-area {
+        padding: 10px 0px;
+    }
+    .feature-area {
+        padding: 40px 16px 32px;
+        margin: 20px 0px;
+    }
+
+    .client-review blockquote {
+        font-size: 18px;
+        padding: 85px 30px 0px;
+    }
+    .client-text::before {
+        padding: 95px 0;
+    }
+    .client_border::after {
+        bottom: 180px;
+    }
+    .client-text::before {
+        top:70px;
+    }
+    .tech {
+        height: 310px;
+    }
+  .tech-text h3{
+      font-size: 22px;
+  }
+  .tech-text p{
+      font-size: 18px;
+  }
+  
+}
+
+@media (max-width: 440px) {
+    .banner-title h1 {
+        font-size: 34px;
+    }
+    .function-area {
+        padding: 0;
+    }
+    .banner-title p {
+        font-size: 16px;
+        margin: 0px 0 14px 0;
+        line-height: 25px;
+    }
+    .hello-btn {
+        padding: 10px 42px;
+        font-size: 16px;
+    }
+    .sectionHeading h2 {
+        font-size: 28px;
+        padding-bottom: 12px;
+    }
+    
+    .fnc-icon {
+        font-size: 34px;
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+        padding: 2px 12px;
+    }
+    .download-app p {
+        font-size: 18px;
+    }
+    .img-area {
+        font-size: 36px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+    .card .card-header .btn-header-link:after {
+        margin-right: 13px;
+    }
+    .card .card-header .btn-header-link {
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+    .card-body {
+        padding: 0px 16px;
+    }
+    .card-body p {
+        font-size: 16px;
+    }
+    .tech-text h3 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    .tech {
+        padding: 30px 12px 30px 12px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .benefit-area h4 {
+        margin-bottom: 18px;
+    }
+    .benefit-area p {
+        font-size: 18px;
+    }ss
+    .app-screenshot .sectionHeading h2 {
+        color: #fff;
+        margin-top: 90px;
+    }
+
+    .card .card-header .btn-header-link:after {
+        width: 26px;
+        height: 26px;
+        line-height: 26px;
+    }
+    .tech-text p {
+        font-size: 18px;
+    }
+    .img-box{
+        margin-right: 20px;
+    }
+    .client_border::before {
+        bottom: -100px;
+    }
+    .social-media ul {
+        margin-top: 16px;
+    }
+    .useful-links ul li {
+        padding: 10px 24px;
+    }
+    .useful-links ul li a {
+        font-size: 18px;
+    }
+    .social-media ul li a {
+        padding: 0;
+    }
+    .copyrights p {
+        font-size: 13px;
+        margin: 14px 0px;
+    }
+    .footer-area {
+        padding: 30px 0px;
+    }
+    .contact h4 {
+        font-size: 20px;
+    }
+    .tech{
+        display: block;
+        height: 350px;
+    }
+    .img-box {
+        border: 1px solid #0939F5;
+        border-radius: 15px;
+        width: 80px;
+        height: 80px;
+        padding: 1px 3px;
+        margin: 0 auto 15px;
+    }
+    .client-text::before {
+        padding: 90px 0px;
+        top: 62px;
+    }
+    .client_border::after {
+        bottom: 203px;
+    }
+    .client-review blockquote {
+        font-size: 16px;
+        padding: 78px 20px 8px;
+    }
+    .accordion>.card>.card-header {
+        margin-bottom: 0px;
+    }
+    .card .card-header .btn-header-link:after {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        padding: 0px 4px;
+    }
+}
+
+@media (max-width:360px) {
+    .client_border::after {
+        bottom: 210px;
+    }
+    .client_border {
+        margin-top: 50px;
+    }
+    .client-text::before {
+        padding: 100px 0px;
+        top: 24px;
+    }
+    .client-review blockquote {
+        font-size: 16px;
+        padding: 30px 5px 0px;
+    }
+}
