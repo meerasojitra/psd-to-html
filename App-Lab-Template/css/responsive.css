@@ -1,0 +1,284 @@
+@media (max-width: 1200px) {
+    .badge {
+        width: 65%;
+    }
+    .main-heading h1 {
+        font-size: 50px;
+    }
+    .awsome-app-area {
+        width: 70%;
+        margin: 0;
+    }
+    .jackpot .sec-heading h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .lab-section {
+        padding: 60px 0px 60px;
+    }
+    p {
+        margin: 0px 0px 20px;
+    }
+    .download-app-left {
+        padding-left: 0px;
+    }
+    .store-app img{
+        margin-right: 15px;
+    }
+    #pricing .sec-heading {
+        margin: 0px auto 20px;
+    }
+    .built-feature .feature-btn{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #faq .sec-heading{
+        margin-bottom: 30px;
+    }
+    .feature-built-left {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+ @media (max-width: 992px) {
+    .badge {
+        width: 73%;
+    }
+    .main-heading h1 {
+        font-size: 48px;
+        margin: 5px 0px 22px
+    }
+    .home-banner {
+        padding: 150px 0px 100px;
+    }
+    p {
+        font-size: 17px;
+    }
+    .awsome-app-area {
+        width: 100%;
+        margin: 0;
+    }
+    .lab-section {
+       padding: 50px 0px;
+    }
+   
+    .jackpot .sec-heading h2 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .sec-heading h2 {
+        font-size: 34px;
+    }
+    .lab-section {
+       padding: 50px 0px;
+    }
+    .store-app img{
+       margin-right: 2px;
+    }
+    #faq .sec-heading{
+        text-align: center;
+    }
+    .product-people-right {
+        padding: 0px;
+        margin-top: 30px;
+    }
+    .download-app-left .sec-heading{
+        text-align: center;
+    }
+    .ft-area {
+        padding: 40px 0px;
+    }
+    .ft-social-link {
+        margin-bottom: 20px;
+    }   
+    .img_gallry{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+} 
+
+@media (max-width: 768px) {
+    .home-banner {
+        padding: 80px 0px 60px;
+    }
+    .main-heading{
+        text-align: center;
+    }
+    .main-heading h1 {
+        font-size: 40px;
+    }
+    .features {
+        margin: 0 auto;
+    }
+    .border-right {
+        border-right:none!important;
+    }
+    p {
+        font-size: 16px;
+    }
+    #jackpots{
+        text-align: center;
+    }
+    .jackpot .sec-heading h2 {
+        margin: 0px;
+    }
+    .lab-section {
+        padding: 42px 0px;
+    }
+    .jackpot-type {
+        padding-top: 40px;
+    }
+    .sec-heading{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .sec-heading h2 {
+        font-size: 32px;
+    }
+    .design-int img{
+        margin-bottom: 30px;
+    }
+    .design-int p{
+        margin-bottom: 30px;
+    }
+    #pricing .sec-heading {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .packages h2 {
+        font-size: 50px;
+        margin: 5px 0px 12px;
+    }
+    .packages h2 span {
+        font-size: 16px;
+    }
+    .download-app-left {
+        margin-bottom: 30px;
+    }
+    .card .card-header .btn-header-link {
+        padding: 16px;
+    }
+    .download-app-left p{
+        margin-bottom: 20px;
+    }
+    .copyright p {
+        margin: 20px 15px 20px;
+    }
+    #features.lab-section .row {
+        flex-direction: column-reverse;
+    }
+    .lab-section.built-feature .row{
+        flex-direction: column-reverse;
+    }
+    .jackpot .text p {
+      padding: 0px;
+    }
+    .package-container {
+       flex-wrap: nowrap;
+    }
+    .feature-built-left {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .fea-app-sec {
+        margin: 15px 0px;
+        padding: 15px 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .feature-built-left {
+        width: 100%;
+        text-align: center;
+    }
+    .lab-section {
+        padding: 30px 0px;
+    }
+    .jackpot .sec-heading h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .jackpot-type {
+        padding-top: 15px;
+    }
+    .jackpot-type img {
+        margin-bottom: 20px;
+    }
+    .jackpot-type .sub-heading{
+        margin-bottom: 20px;
+    }
+    .app-sec {
+        margin:0px;
+        padding:0px;
+    }
+    .fea-app-sec {
+        text-align: center;
+    }
+    .package-body ul li {
+        padding: 5px 0px;
+    }
+    .packages h2 {
+        font-size: 45px;
+    }
+    .packages {
+            margin: 0px 0px 41px 0px;
+    }
+    .fea-app-sec {
+       text-align: center;
+       margin:15px 0px;
+       padding: 0;
+    }
+    .package-container {
+        flex-wrap: wrap;
+     }
+}
+@media (max-width: 420px) {
+    .copyright p {
+        margin: 15px 15px 15px;
+    }
+    .ft-link ul li {
+        font-size: 15px;
+        display: block;
+        padding: 3px 16px;
+    }
+    .store-app{
+        display: block;
+    }
+    .store-app img {
+        margin-bottom: 20px;
+    }
+    .sec-heading h2 {
+        font-size: 30px;
+    }
+    .package-body {
+        padding: 16px 0px;
+    }
+    .lab-section {
+        padding: 20px 0px;
+    }
+    .jackpot .sec-heading h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .badge {
+        width: 100%;
+    }
+    .main-heading h1 {
+        font-size: 32px;
+        margin: 5px 0px 14px;
+    }
+    .jackpot-type .sub-heading {
+        padding: 0px;
+    }
+    .slick-prev, .slick-next {
+        bottom: -5%;
+    }
+    .app-lab-btn {
+        padding: 8px 28px;
+        font-weight: 600;
+    }
+    .sub-section {
+        padding: 48px 0px 0px;
+    }
+}
