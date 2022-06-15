@@ -1,0 +1,594 @@
+@media(min-width:1200px) and (max-width:1450px) {
+    .carousel-control-prev {
+        left: 0px;
+    }
+    .carousel-control-next {
+        right: 0px;
+    }
+ }
+ @media(max-width:1300px) and (min-width:1199px) {
+    .work-process-carousel .slick-dots {
+        right: -2%;
+    }
+    .work-process-carousel .slick-prev {
+        right: -3%;
+    }
+    .work-process-carousel .slick-next {
+        right: -3%;
+    }
+
+ }
+@media (max-width:1199px){
+    .home-banner {
+        padding: 130px 0px;
+    }
+    .banner-left {
+        padding: 0px 0px 0px 0px;
+    }
+    .banner-left h1 {
+        font-size: 130px;
+    }
+    .banner-left h2 {
+        font-size:29px;
+    }
+    .banner-left p {
+        line-height: 1.7;
+        margin: 22px 0px;
+    }
+    .smart-button {
+        margin: 24px 4px 24px 0;
+    }
+    .carousel-indicators {
+        bottom:0%;
+        justify-content: left;
+        text-align: left;
+        padding-left: 0px;
+    }
+    .carousel-control-prev {
+        left: -12px;
+    }
+    .carousel-control-next {
+        right:-12px;
+    } 
+    .about-img {
+        width: 100%;
+        right: -14px;
+    }
+    #about .pb-100 {
+        padding-bottom: 0px;
+    }
+    .sec-heading h2 {
+        font-size: 40px;
+        line-height: 52px;
+        margin-bottom: 30px; 
+    }
+   
+ }
+ @media screen and (max-width: 992px) and (min-width:768px) {
+    .features-area {
+        max-width: 100%;
+           margin: 30px 0px 30px;
+           padding: 0px 20px 20px 20px;
+       }
+ }
+   
+@media (max-width: 991px){ 
+    .smart-sec {
+        padding: 64px 0px
+    }
+    .home-banner {
+        padding: 100px 0 12px;
+    }
+    .banner-left{
+        max-width: 550px;
+        margin: 0 auto;
+    }
+    .smart-button {
+        min-width: 200px;
+        padding: 8px 30px;
+    }
+    .banner-left{
+        text-align: center;
+    }
+    .banner-right img{
+        width: 60%;
+        margin: 20px auto 0;
+    }
+    .banner-left h1 {
+        font-size:80px;
+        margin-bottom: 12px;
+    }
+    .banner-left h2 {
+        font-size: 24px;
+        margin-bottom: 10px
+    }
+    .banner-left p {
+        line-height: 1.5;
+        margin: 16px 0px;
+    }
+    .carousel-indicators li {
+       display: none;
+    }
+    .about-img {
+        position: initial;
+        right: 0px;
+    }
+    #about.smart-sec{
+        padding: 80px 0px 0px;
+    }
+    .ft-left , .ft-right{
+        text-align: left;
+        padding-right: 0px;
+        padding-left:120px;
+    }
+   .ft-left .feature-icon,  .ft-right .feature-icon {
+        right: auto;
+        left:0;
+    }
+   .feature-area{
+        padding-top:5px;
+        max-width:400px;
+        margin-left: auto;
+        margin-right: auto;
+   }
+ 
+   /* work carousel */
+   .work-process-carousel .slick-prev {
+        right: -6%;
+        top: 70%;
+        left: 0;
+    }
+    .work-process-carousel .slick-next {
+        right: -6%;
+        top:auto;
+        bottom:10%;
+        left: 0;
+    }
+    .work-process-carousel .slick-dots {
+        top: 72%;
+        right: 0%;
+    }
+    .trusted-client-slider .slick-dots {
+        bottom: -60px;
+    }
+    #contact.smart-sec {
+        padding: 64px 0px 64px;
+    }
+    .contact-bg {
+        height: auto;
+    }
+    .contact-form {
+        padding: 0px 40px 50px;
+    }
+    .contact-info {
+        padding: 80px 40px 30px;
+    }
+    footer {
+        background: #1F3542;
+        margin-top: 0px;
+        padding: 72px 0 72px 0;
+    }
+    .download-icon-btn .icon-btn {
+        padding: 25px 52px 25px 52px;
+    }
+    .counter-area h5 {
+        line-height: 1.5;
+        font-size: 45px;
+    }
+    #counter{
+        padding: 100px 0px;
+    }
+    .counter-area {
+        margin-bottom: 40px;
+    }
+    #about.smart-sec {
+        padding: 64px 0px 0px;
+    }
+    .navbar.navbar-sticky {
+        height: 75px;
+    }
+    .navbar {
+        padding: 15px 12px;
+    }
+    .counter-area i {
+        font-size: 58px;
+    }
+    .download-icon-btn {
+        margin: 36px 0px 0px;
+    }
+   
+ }
+
+@media (max-width: 767px) { 
+    .home-banner {
+        padding: 90px 0 12px;
+    }
+    .banner-left h1 {
+        font-size: 72px;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .icon-btn {
+        padding: 26px 60px 25px 60px;
+    }
+    .sec-heading h2 {
+        font-size:34px;
+        line-height: 54px;
+        margin-bottom: 18px;
+    }
+    .work-process-carousel .slick-dots {
+        position: absolute;
+        top: auto;
+        right: auto;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0px 0px;
+        text-align: center;
+        justify-content: center;
+    }
+    .work-process-carousel .slick-dots li{
+        padding: 0px 15px;
+    }
+    .counter-area {
+        margin-bottom: 50px;
+    }
+    #counter{
+        padding: 80px 0px 50px;
+    }
+    .work-process-carousel .slick-prev, .work-process-carousel .slick-next { 
+        color: transparent;
+        border: 1px solid transparent;
+        background: transparent;
+        text-align: center;
+    }
+    .price-box-header-left {
+        border-radius: 12px 12px 0px 0px;
+    }
+    .price-box {
+        margin: 70px auto 0 auto;
+        width: 90%;
+    }
+    .smart-form input[type=submit] {
+        right: 60px;
+    }
+    .features-area {
+        padding: 0;
+    }
+    .mob-feature {
+        margin-top: 50px;
+    }
+    #about.smart-sec {
+        padding: 54px 0px 0px;
+    }
+    .smart-sec {
+        padding: 54px 0px;
+    }
+    .about-icon-btn {
+        margin: 40px 0px 0px;
+    }
+    .feature-icon i {
+        font-size: 36px;
+        line-height: 75px;
+    }
+    .feature-icon {
+        width: 75px;
+        height: 75px;
+    }
+    .feature-area h5 {
+        margin: 5px 0px 10px;
+    }
+    .ft-left, .ft-right {
+        padding-left: 111px;
+    }
+    #work h3 {
+        font-size: 25px;
+    }
+    .work-process-text h4 {
+        font-size: 22px;
+    }
+    #faq img{
+        width: 70%;
+    }
+    .price-box.active{
+        margin-top:20px;
+    }
+    .price-box-body li {
+        padding: 20px 50px 20px;
+    }
+    .contact-bg .sec-heading p {
+        line-height: 1.5;
+        padding: 20px 0px;
+    }
+    .contact-area a h6 {
+        font-size: 20px;
+    }
+    .contact-area a p, .contact-area a address {
+        margin-bottom: 12px;
+    }
+    #faq img {
+        width: 80%;
+    }
+    .team-area{
+        margin:0 auto 30px;
+    }
+   
+
+}
+
+@media (max-width: 577px) {
+    #faq img {
+        width: 100%;
+    }
+    .carousel-control-next {
+        right: 0px;
+    }
+    .carousel-control-prev{
+        left: 0px;
+    }
+    .banner-left h1 {
+        font-size: 62px;
+    }
+    /* .about-icon-btn {
+        text-align: center;
+    } */
+    .work-process-carousel .slick-prev, .work-process-carousel .slick-next{
+        color: transparent;
+        border: 1px solid transparent;
+    }
+    .work-process-carousel .slick-dots {
+        display: block;
+        top: auto;
+        bottom: -5%;
+        text-align: center;
+        justify-content: center;
+        right: auto;
+    }
+    .sec-heading h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .blog-content a h4 {
+        font-size: 20px;
+    }
+    .blog-content p {
+        padding: 15px 0 5px 0;
+        line-height: 1.7;
+    }
+    .read-more-btn {
+        padding: 36px 0 16px 30px;
+    }
+    .sec-heading h3, .contact-form h5 {
+        font-size: 28px;
+    }
+    .sec-heading p {
+        line-height: 1.7;
+    }
+    .download-icon-btn {
+        margin: 12px 0px 0px;
+    }
+    .icon-btn {
+        padding: 22px 38px 22px 38px;
+    }
+    .download-icon-btn .icon-btn {
+        padding: 25px 40px 25px 40px;
+    }
+    .download-icon-btn .icon-btn i {
+        margin-left: 14px;
+        line-height: 80px;
+        left: 25px;
+    }
+ }
+ @media (max-width: 500px) {
+    .slick-dots li button {
+        border: 1px solid #836aeb;
+        border-radius: 20px;
+    }
+    .slick-dots li.slick-active button {
+    background-color: #836aeb;
+    }
+    .banner-right img{
+        width: 100%;
+    }
+    .icon-btn {
+        padding: 18px 50px 18px 50px;
+    }
+  
+}
+
+@media (max-width:350px) {
+    .banner-left h1 {
+        font-size: 54px;
+    }
+    .banner-left h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .banner-left p {
+        margin: 16px 0px 20px;
+    }
+    .smart-button {
+        min-width: 170px;
+        margin: 12px 0px 12px 0;
+        padding: 4px 30px;
+    }
+    .navbar-collapse {
+        width: 60%;
+    }
+    .sec-heading h2 {
+        font-size:28px;
+        line-height: 34px;
+    }
+    .left-sec-heading h2:after{
+        left: 10%;
+    }
+    .features-area h5 {
+        font-size: 20px;
+    }
+    #about.smart-sec {
+        padding: 32px 0px 0px;
+    }
+    .smart-sec {
+        padding: 44px 0px;
+    }
+    .feature-icon {
+        width: 60px;
+        height: 60px;
+    }
+    .feature-icon i {
+        font-size: 28px;
+        line-height: 60px;
+    }
+    .ft-left, .ft-right {
+        padding-left: 80px;
+    }
+    #work h3 {
+        font-size: 20px;
+        margin-top: 8px;
+        font-weight: 400;
+    }
+    .work-process-text h4 {
+        font-size: 18px;
+    }
+    .download-icon-btn {
+        max-width: 290px;
+        margin: 20px auto 0px
+    }
+    .download-icon-btn .icon-btn {
+        padding: 16px 20px 16px 20px;
+    }
+    .icon-btn i {
+        line-height: 70px;
+        font-size: 30px;
+    }
+    .download-icon-btn .icon-btn i {
+        margin-left:0px;
+    }
+    .counter-area i {
+        font-size: 50px;
+    }
+    .counter-area h5 {
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    .counter-area p {
+        font-size: 18px;
+    }
+    .price-box-header p {
+        font-size: 38px;
+    }
+    .price-box-header h4 {
+        font-size: 18px;
+    }
+    footer .download-icon-btn .icon-btn {
+        padding: 16px 18px 16px 20px;
+    }
+
+    footer .download-icon-btn .icon-btn i {
+        margin-left: -2px;
+    }
+    footer {
+        padding: 48px 0 48px 0;
+    }
+    .contact-form-area label {
+        text-align: center;
+    }
+    .contact-form-area .submit-btn {
+        min-width: 160px;
+    }
+    .contact-form-area {
+        padding-top: 12px;
+    }
+    .contact-area a p, .contact-area a address{
+        font-size: 15px;
+    }
+    #contact.smart-sec {
+        padding: 36px 0px 36px;
+    }
+    .contact-info {
+        padding: 52px 12px 26px;
+    }
+    .contact-form {
+        padding: 0px 12px 50px;
+    }
+    .sec-heading h3, .contact-form h5 {
+        margin: 0px 0px;
+        font-size: 22px;
+    }
+    .contact-form-area textarea {
+        height: 45px;
+    }
+    .navbar.navbar-sticky {
+        height:62px;
+    }
+    .navbar-brand span {
+        font-size: 30px;
+    }
+    .navbar {
+        padding: 12px 12px;
+    }
+    #feature .sec-heading h2 {
+        text-align: center;
+    }
+    #feature .left-sec-heading h2:after{
+        left: 50%;
+    }
+    .about-icon-btn {
+        margin: 30px 0px 0px;
+        text-align:center;
+    }
+    
+    .icon-btn {
+        margin: 0px 0px 20px 0px;
+        padding: 18px 29px 18px 29px;
+    }
+    #download .sec-heading h2{
+        margin-top: 18px;
+    }
+    #faq.smart-sec {
+        padding: 44px 0px 0px;
+    }
+    .accordion>.card>.card-header {
+        display: grid;
+    }
+    .card-body p{
+        font-size: 15px;
+    }
+    .trusted-client-slider .slick-dots {
+        bottom: -42px;
+    }
+    .price-box-body li {
+        padding: 16px 20px 16px;
+    }
+    .price-box a {
+        margin-top: 22px
+    }
+    .contact-bg .sec-heading p {
+        padding: 12px 0px;
+    }
+    .social-media a i {
+        width: 42px;
+        height: 42px;
+        line-height: 42px;
+    }
+    .social-media {
+        padding: 20px 0px 0px;
+    }
+    .feature-area {
+        margin-bottom: 22px;
+    }
+    .work-process {
+        margin: 22px 0px 10px;
+    }
+    .client-area {
+        padding: 21px 0px;
+    }
+    #price .sec-heading h2 {
+        color: #fff;
+        padding: 48px 0px 0px;
+    }
+    #price.smart-sec {
+        padding: 0px 0px 54px;
+    }
+}
