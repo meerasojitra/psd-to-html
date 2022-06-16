@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saas co</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+   
+    <link rel="stylesheet" href="css/menu.css">
+
+	<script src="https://kit.fontawesome.com/6db922b755.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container position-relative">
+            <a class="navbar-brand" href="#">Saas<span class="yellow">Co.</span>    </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> 
+            </button>
+
+            <div class="navbar-inner">
+            <!--  Mobile Menu Toggler -->
+                <button class="navbar-toggler" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav>
+                    <ul class="navbar-nav" id="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#home">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#feature">features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#price">pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#web-element">blog</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+     
+      <section>
+        <div class="home-banner" id="home">
+        <div class="container">
+          <div class="banner-inner">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="banner-detail">
+                <h1>Easy <u>Control</u><br/>
+                Your Business</h1>
+                <p>The Passage is attribute to an unkown typesetter in the 15th centuary who is thought have finibus.</p>
+                <a href="#" class="btn btn-yellow">Download Now</a>
+                <a href="#" class="start-trial">Start Trial For 14 Days</a>
+              </div>
+              </div>
+           
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+  
+    <!-- feature -->
+    <section class="feature saas-section" id="feature">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-5 col-12">
+            <div class="saas-heading">
+              <h2>Amazing features to convince you to use our application</h2>
+              <p>The purpose of lorem ipsum is to create a natural looking block of text that doesn't distact from the layout laying out pages with meaningle.</p>
+              <a href="#" class="btn btn-blue m-25">Download Now</a> 
+            </div>
+          </div>
+          <div class="col-lg-7 col-12">
+            <div class="row pd-r">
+              <div class="col-sm-6 pd-left-35">
+                <div class="main-feature mb-32">
+                  <div class="feature-img feature-3"></div>
+                  <h4>installation Guide</h4>
+                </div>
+                </div>
+
+                <div class="col-sm-6 pd-left-35">
+                  <div class="main-feature mb-32 active">
+                    <div class="feature-img feature-3"></div>
+                    <h4>Live Call Support</h4>
+                  </div>
+                  </div>
+
+                </div>
+                <div class="row pd-r">
+                  <div class="col-sm-6 pd-left-35">
+                    <div class="main-feature mb-32">
+                      <div class="feature-img feature-3"></div>
+                      <h4>secured Payment</h4>
+                    </div>
+                    </div>
+    
+                    <div class="col-sm-6 pd-left-35">
+                      <div class="main-feature mb-32">
+                        <div class="feature-img feature-3"></div>
+                        <h4>track Your Move</h4>
+                    </div>
+                  </div>
+    
+                </div>
+              </div>
+            </div>
+         <!-- section-2-feature -- section-3-->
+        <div class="row justify-content-between align-items-center sub-section saas-section">
+          <div class="col-md-5 col-12">
+            <img src="img/feature-right.png" alt="start-trial" class="img-fluid ">
+          </div>
+          <div class="col-md-7 col-12">
+            <div class="saas-heading pd-r">
+              <h2 class="m-25 ">The proper guide that helps you to unlock the real potential</h2>
+              <p  class="m-25 ">The purpose of lorem ipsum is to create a natural looking block of text that doesn't distact from the layout laying out pages with meaningle.</p>
+              <a href="#" class="btn btn-blue m-25 ">Start Trial</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+
+   
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/plugins.min.js"></script> -->
+    <script src="js/custom.js"></script>
+   
+   
+  <script>
+
+     // :: 2.0 NAVIGATION MENU ACTIVE CODE
+    // dropdown for mobile
+
+    $(document).ready(function () {
+        checkWidth(true);
+        $(window).resize(function () {
+            checkWidth(false);
+        });
+    });
+
+    function checkWidth(init) {
+        // If browser resized, check width again 
+        if ($(window).width() <= 991) {
+            $('..nav-item a').on("click", function (e) {
+                $(this).next('ul').toggle();
+                e.stopPropagation();
+            });
+        }
+    }
+      
+      function navMenu() {
+
+      // MAIN MENU TOGGLER ICON (MOBILE SITE ONLY)
+      $('[data-toggle="navbarToggler"]').click(function () {
+          $('.navbar').toggleClass('active');
+          $('body').toggleClass('canvas-open');
+      });
+
+      // MAIN MENU TOGGLER ICON
+      $('.navbar-toggler').click(function () {
+          $('.navbar-toggler-icon').toggleClass('active');
+      });
+      
+
+      $(window).on("scroll load", function () {
+      // add/remove class to navbar when scrolling
+      var scroll = $(window).scrollTop();
+      if (scroll >= 100) {
+      $('.navbar').addClass("navbar-sticky");
+      } else {
+      $('.navbar').removeClass("navbar-sticky");
+      }
+
+      });
+    }
+
+     // :: 4.0 SCROLL LINK ACTIVE CODE
+    //  var scrollLink = $('.scroll');
+
+navMenu();
+  </script>
+    
+</body>
+</html>
