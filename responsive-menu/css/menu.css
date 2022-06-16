@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wg94ht@400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	overflow-x: hidden;
+}
+.navbar-brand{
+    font-size: 35px;
+    line-height: 70px;
+    font-weight: 400;
+    font-family: 'Alata', sans-serif;
+    color: #fff;
+}
+a{
+	color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #ffffff;
+	font-size: 17px;
+	line-height: 70px;
+    position: relative;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: all 0.3s linear;
+    display: inline-block;
+	text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Alata', sans-serif;
+	padding: 0px 20px;
+}
+.navbar-light .navbar-toggler {
+    border: 2px solid #fa9a15;
+	color: #fff;
+}
+.navbar-light .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+ .btn{
+    font-size: 17px;
+    height: 60px;
+    width:150px;
+    color: #fff;
+    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.12);
+	border: none;
+	padding: 12px 12px;
+	-webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.btn-login{
+	background-color: #ffffff24;
+}
+.btn-blue{
+	background: rgb(13,67,182);
+	background: linear-gradient(90deg, rgba(13,67,182,1) 0%, rgba(15,102,248,1) 100%);
+}
+ .btn-yellow{
+    background: rgb(249,150,6);
+    background: linear-gradient(90deg, rgba(249,150,6,1) 0%, rgba(233,181,22,1) 100%);   
+}
+.btn-yellow:hover{
+    background: rgb(249,150,6);
+    background: linear-gradient(-25deg, rgba(249,150,6,1) 273%, rgba(233,181,22,1) 100%);   
+}
+.login-signup-btn .btn{
+	padding: 8px 12px;
+}
+.login-signup-btn{
+	display: flex;
+}
+.login-signup-btn:hover .btn-blue{
+	background-color: #E9B516;
+}
+.login-signup-btn a{
+	margin: 0 10px;
+}
+.login-signup-btn a::after{
+	width: 10px;
+    height: 15px;
+    content: "\2192";
+	color: #fff;
+	margin-left: 10px;
+	font-size: 24px;	
+}
+.navbar.navbar-sticky {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+	height: 70px;
+    z-index: 999;
+    transition: all 0.3s linear;
+    background: #eee;
+	/* background: linear-gradient(0deg, #134fc8 0%, #1860e0 100%); */
+	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+} 
+@media (min-width:992px) {
+	.navbar {
+		padding-right:70px;
+		padding-left:70px;
+	}
+	
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding: 0 25px;
+		margin: 0px 15px;
+	}
+	
+}
+.banner-inner {
+    overflow: hidden;
+    width: 100%;
+}
+.home-banner{
+    padding: 0;
+	top: 0px;
+	display: flex;
+	position: relative;
+	background-image: url(../img/banner-bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	align-items: center;
+	text-align: center; 
+	overflow: hidden;
+}
+.banner-detail{
+	color: #fdfdfe;
+	padding-top: 120px;
+	text-align: left;
+}
+.banner-detail h1{
+	color: #fff;
+	font-size: 85px;
+	line-height: 100px;
+}
+.banner-detail p{
+	margin-bottom: 25px;
+}
+.banner-detail p{
+color: #fff;
+font-size: 17px;
+line-height: 32px;
+font-family: 'Poppins', sans-serif;
+font-weight:500;
+}
+.banner-detail .btn{
+	padding: 8px 12px;
+    width: 216px;
+}
+.banner-detail .start-trial{
+	text-decoration: underline;
+    margin-left: 20px;
+	font-family: "Alata", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner-detail a.start-trial:hover{
+	color: #E9B516!important;
+}
+
+.banner-detail .start-trial::after{
+	content: '';
+}
+.banner-detail a::after{
+	width: 10px;
+    height: 15px;
+    content: "\2192";
+	color: #fff;
+	margin-left: 10px;
+	font-size: 24px;	
+}
+.banner-left{
+	position: absolute;
+	bottom: -119px;
+    right: -89px;
+}
+
+
+.navbar.navbar-light.navbar-sticky .navbar-nav .nav-link {
+    color:#444;
+}
+
+
+@media (max-width: 991px) {
+    .canvas-open {
+      overflow: hidden;
+    }
+    .canvas-open .main:before {
+      width: 100%;
+      opacity: .95;
+      visibility: visible;
+    }
+    .navbar {
+        padding-top:10px;
+        padding-bottom:10px;
+      }
+      .navbar .navbar-toggler {
+        position: absolute !important;
+        top: auto;
+        right: 0;
+        bottom: auto;
+        left: auto;
+        border: none;
+        height: 100%;
+        width:60px;
+        background-image: none;
+        border-radius: 0;
+        z-index: 1;
+        display: inline-block;
+      }
+      .navbar .navbar-inner .navbar-toggler {
+        height:40px;
+        top: 0;
+    }
+      .navbar .navbar-toggler .navbar-toggler-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        height: 3px;
+        width: 50%;
+        background: #7e8085;
+        display: inline-block;
+        background-image: none !important;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+      }
+      .navbar .navbar-toggler .navbar-toggler-icon::before, .navbar .navbar-toggler .navbar-toggler-icon::after {
+        content: "";
+        background:#7e8085;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+      }
+      .navbar.navbar-light .navbar-toggler-icon.active::before, .navbar.navbar-light .navbar-toggler-icon.active::after {
+        background:#7e8085;
+    }
+      .navbar.navbar-light .navbar-toggler-icon::before, .navbar.navbar-light .navbar-toggler-icon::after {
+        background:#fff;
+    }
+      .navbar .navbar-toggler .navbar-toggler-icon::before {
+        top:-10px;
+      }
+      .navbar .navbar-toggler .navbar-toggler-icon::after {
+        top:10px;
+      }
+      .navbar .navbar-toggler .navbar-toggler-icon.active {
+        background-color: transparent;
+        -webkit-transform: scale(0.85) rotate(270deg);
+                transform: scale(0.85) rotate(270deg);
+      }
+      .navbar .navbar-toggler .navbar-toggler-icon.active::before {
+        top: 0;
+        -webkit-transform: scale(0.65) rotate(45deg);
+                transform: scale(0.65) rotate(45deg);
+      }
+      .navbar .navbar-toggler .navbar-toggler-icon.active::after {
+        top: 0;
+        -webkit-transform: scale(0.65) rotate(-45deg);
+                transform: scale(0.65) rotate(-45deg);
+      }
+      .navbar.navbar-light .navbar-toggler-icon {
+        background:#fff;
+    }
+    .navbar .navbar-inner {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width:320px;
+        padding-top:40px;
+        background-color: #fff;
+        -webkit-box-shadow: 0 8px 30px rgb(0 0 0 / 15%);
+        box-shadow: 0 8px 30px rgb(0 0 0 / 15%);
+        border-radius: 0;
+        overflow-y: auto;
+        z-index: 1050;
+        right: -100%;
+        -webkit-transition: right 0.3s 0.2s;
+        transition: right 0.3s 0.2s;
+    }
+    .navbar.active .navbar-inner {
+        right: 0;
+    }
+    .navbar .navbar-nav .nav-link {
+        border-bottom: 1px solid #eee;
+        padding-top: 12px;
+        padding-bottom:12px;
+        padding-right:20px;
+        padding-left: 20px;
+        -webkit-transition: .3s;
+        transition: .3s;
+    }
+    .navbar.navbar-light .navbar-nav .nav-link {
+        color: #54565a;
+    }
+    }
+    .navbar.navbar-light.navbar-sticky .navbar-nav .nav-link {
+        color: #444;
+    }
+ .saas-section{
+     padding: 80px 0px;
+ }
+ .saas-heading h2 {
+    font-size: 42px;
+    line-height: 50px;
+}
+.saas-heading p {
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 25px;
+}
+.feature .btn {
+    width: 215px;
+    line-height: 60px;
+    padding:0px 12px;
+    background-color: #24E09B00;
+    color: #fff;
+}
+.main-feature {
+    width: 214px;
+    height: 241px;
+    border: 1px solid #f2f4fb;
+    text-align: center;
+    box-shadow: 0px 0px 35px 0px rgb(0 0 0 / 5%);
+    margin: 0 auto;
+    padding: 0px 32px 0px 0px;
+}
+.feature-3 {
+    width: 62px;
+    height: 56px;
+    background-image: url(../img/secure-payment.png);
+    margin: 0 auto;
+}
